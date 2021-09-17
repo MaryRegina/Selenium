@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="27.68116">
+    <testcase classname="check title" name="Verify title of demowebshop" time="4.96081">
+        <system-out>
+            <![CDATA[Given Iam on the home page of demowebshop...................................passed
+Then I should see that title contain "shop".................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check login with multiple data" name="Successful signin with valid data" time="12.896009">
+        <system-out>
+            <![CDATA[Given I am on demowebshop login page........................................passed
+When I login with rekhabr1@gmail.com and rekhab.............................passed
+Then I should see the logout link...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Check login with multiple data" name="Successful signin with valid data 2" time="9.824341">
+        <system-out>
+            <![CDATA[Given I am on demowebshop login page........................................passed
+When I login with jennifer1998@gmail.com and pass123$.......................passed
+Then I should see the logout link...........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

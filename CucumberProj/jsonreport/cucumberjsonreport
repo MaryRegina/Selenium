@@ -1,0 +1,209 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "driver installed",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9342003800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Iam on the home page of demowebshop",
+            "match": {
+              "location": "BackgroundDemo.iam_on_the_home_page_of_demowebshop()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Verify title of demowebshop",
+        "description": "",
+        "id": "check-title;verify-title-of-demowebshop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180812200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see that title contain \"shop\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shop",
+                  "offset": 33
+                }
+              ],
+              "location": "BackgroundDemo.i_should_see_that_title_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "check title",
+    "description": "",
+    "id": "check-title",
+    "keyword": "Feature",
+    "uri": "backgrounddemo.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Successful signin with valid data",
+        "description": "",
+        "id": "check-login-with-multiple-data;successful-signin-with-valid-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2502880800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on demowebshop login page",
+            "match": {
+              "location": "ScenarioOutlineDemo.i_am_on_demowebshop_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2697013200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I login with rekhabr1@gmail.com and rekhab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rekhabr1@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "rekhab",
+                  "offset": 36
+                }
+              ],
+              "location": "ScenarioOutlineDemo.i_login_with_email_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 906588000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the logout link",
+            "match": {
+              "location": "ScenarioOutlineDemo.i_should_see_the_logout_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Successful signin with valid data",
+        "description": "",
+        "id": "check-login-with-multiple-data;successful-signin-with-valid-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2729320100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on demowebshop login page",
+            "match": {
+              "location": "ScenarioOutlineDemo.i_am_on_demowebshop_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2447883000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I login with jennifer1998@gmail.com and pass123$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jennifer1998@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "pass123$",
+                  "offset": 40
+                }
+              ],
+              "location": "ScenarioOutlineDemo.i_login_with_email_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 893223600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the logout link",
+            "match": {
+              "location": "ScenarioOutlineDemo.i_should_see_the_logout_link()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Check login with multiple data",
+    "description": "",
+    "id": "check-login-with-multiple-data",
+    "keyword": "Feature",
+    "uri": "scenariooutline.feature"
+  }
+]
