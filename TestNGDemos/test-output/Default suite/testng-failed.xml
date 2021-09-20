@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pagefactorydemowebshop.TestRegisterAndLogin">
+      <class name="learntesting.DataProviderDemo">
         <methods>
-          <include name="validateLogin"/>
+          <include name="f" invocation-numbers="1"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- pagefactorydemowebshop.TestRegisterAndLogin -->
+      </class> <!-- learntesting.DataProviderDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
